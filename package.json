@@ -1,0 +1,33 @@
+{
+  "name": "jest-grammar-checker-client",
+  "author": "Amon De Shir",
+  "description": "Simple LSP created for checking grammar in my jest tests",
+  "repository": "https://github.com/AmonDeShir/jest-grammar-checker",
+  "packageManager": "yarn@3.1.1",
+  "scripts": {
+    "prepare": "husky install",
+    "start": "ts-node ./src/index.ts",
+    "test": "yarn jest --coverage",
+    "lint": "yarn eslint ./src --fix"
+  },
+  "dependencies": {
+    "ts-node": "^10.4.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.4.0",
+    "@typescript-eslint/eslint-plugin": "^5.9.0",
+    "@typescript-eslint/parser": "^5.9.0",
+    "eslint": "^8.6.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-airbnb-typescript": "^16.1.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-import-resolver-node": "^0.3.6",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-prettier": "^4.0.0",
+    "husky": "^7.0.4",
+    "jest": "^27.4.5",
+    "prettier": "^2.5.1",
+    "ts-jest": "^27.1.2",
+    "typescript": "^4.5.4"
+  }
+}
